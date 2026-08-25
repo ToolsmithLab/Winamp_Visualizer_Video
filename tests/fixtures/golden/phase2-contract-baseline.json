@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "projectDefault": {
+    "schemaBeforeM1": "5.0",
+    "layerCount": 10,
+    "canvasPluginCount": 6,
+    "projectMLayerCount": 1,
+    "blendModes": [
+      "source-over",
+      "screen",
+      "lighter",
+      "multiply",
+      "overlay",
+      "lighten",
+      "darken"
+    ],
+    "canvas": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    }
+  },
+  "ipc": {
+    "projectSave": "project:save",
+    "projectOpen": "project:open",
+    "exportStart": "export:start",
+    "projectMRender": "projectm:render",
+    "presetImport": "presets:import",
+    "presetSelect": "presets:select"
+  },
+  "criticalErrors": [
+    "Seleziona un file audio prima di esportare.",
+    "Libreria projectM mancante",
+    "Spazio su disco insufficiente",
+    "Il file progetto contiene JSON non valido."
+  ],
+  "native": {
+    "projectM": "4.1.6",
+    "ffmpegManifest": "native/ffmpeg/win-x64/manifest.json",
+    "projectMManifest": "native/bin/win-x64/manifest.json"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "name": "Legacy schema 1",
+  "audioFile": "C:\\Media\\Unicode Ω\\brano.wav",
+  "cover": {
+    "filePath": "C:\\Media\\Unicode Ω\\copertina.png",
+    "x": 0.5,
+    "y": 0.35,
+    "width": 0.62,
+    "height": 0.35,
+    "opacity": 1,
+    "cornerRadius": 0.04
+  },
+  "text": {
+    "artist": "Artista legacy",
+    "title": "Titolo schema 1",
+    "color": "#ffffff"
+  },
+  "modifiedAt": "2026-01-01T00:00:00.000Z"
+}

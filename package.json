@@ -1,0 +1,149 @@
+{
+  "name": "audio-visualizer-studio",
+  "version": "0.2.0",
+  "description": "Editor desktop per creare video musicali verticali audio-reattivi.",
+  "main": "dist/main/main.js",
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:renderer && npm run build:main",
+    "build:main": "tsc -p tsconfig.main.json",
+    "build:renderer": "vite build",
+    "test": "npm run build && node --test tests/*.test.cjs",
+    "dev": "npm run build && electron .",
+    "start": "electron .",
+    "dist": "npm run build && electron-builder --win nsis portable",
+    "dist:dir": "npm run build && electron-builder --dir"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.0.3",
+    "yauzl": "2.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/yauzl": "2.10.3",
+    "electron": "^37.2.0",
+    "electron-builder": "^26.0.12",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5",
+    "yazl": "2.5.1"
+  },
+  "build": {
+    "appId": "studio.audiovisualizer.app",
+    "productName": "Audio Visualizer Studio",
+    "directories": {
+      "output": "release"
+    },
+    "beforeBuild": "scripts/electron-builder-before-build.cjs",
+    "files": [
+      "dist/**/*",
+      "package.json",
+      {
+        "from": "node_modules/@napi-rs/canvas",
+        "to": "node_modules/@napi-rs/canvas",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "node_modules/@napi-rs/canvas-win32-x64-msvc",
+        "to": "node_modules/@napi-rs/canvas-win32-x64-msvc",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "node_modules/yauzl",
+        "to": "node_modules/yauzl",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "node_modules/buffer-crc32",
+        "to": "node_modules/buffer-crc32",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "node_modules/fd-slicer",
+        "to": "node_modules/fd-slicer",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "node_modules/pend",
+        "to": "node_modules/pend",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "extraResources": [
+      {
+        "from": "native/bin/win-x64",
+        "to": "native/win-x64",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "native/ffmpeg/win-x64",
+        "to": "native/ffmpeg/win-x64",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "assets/preset-catalog",
+        "to": "preset-catalog",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "assets/projectm",
+        "to": "assets/projectm",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "licenses",
+        "to": "licenses",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "THIRD_PARTY_LICENSES.md",
+        "to": "THIRD_PARTY_LICENSES.md"
+      },
+      {
+        "from": "PRESET_LICENSES.md",
+        "to": "PRESET_LICENSES.md"
+      }
+    ],
+    "asarUnpack": [
+      "node_modules/@napi-rs/canvas/**/*",
+      "node_modules/@napi-rs/canvas-win32-x64-msvc/**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "artifactName": "${productName}-Setup-${version}-${arch}.${ext}",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "portable": {
+      "artifactName": "${productName}-Portable-${version}-${arch}.${ext}"
+    }
+  }
+}

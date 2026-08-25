@@ -1,0 +1,9 @@
+node_modules/
+.tools/
+dist/
+release/
+*.log
+*.avsproject.bak
+.DS_Store
+Thumbs.db
+test-results/

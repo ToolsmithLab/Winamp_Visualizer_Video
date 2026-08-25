@@ -1,0 +1,54 @@
+{
+  "version": "2.0",
+  "name": "Legacy schema 2",
+  "audioFile": "C:\\Media\\schema-2.wav",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "backgroundColor": "#080b12",
+    "accentColor": "#8b5cf6"
+  },
+  "cover": {
+    "filePath": null,
+    "x": 0.44,
+    "y": 0.31,
+    "width": 0.58,
+    "height": 0.33,
+    "opacity": 0.9,
+    "cornerRadius": 0.03
+  },
+  "text": {
+    "artist": "Schema 2",
+    "title": "Livelli legacy",
+    "color": "#f8fafc",
+    "artistX": 0.5,
+    "artistY": 0.57,
+    "artistSize": 0.032,
+    "titleX": 0.5,
+    "titleY": 0.625,
+    "titleSize": 0.062
+  },
+  "layers": [
+    {
+      "id": "visualizer-spectrumBars",
+      "name": "Spectrum Bars",
+      "kind": "visualizer",
+      "pluginId": "spectrumBars",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.83,
+      "blendMode": "screen",
+      "startTime": 1.5,
+      "endTime": 18,
+      "reactive": {
+        "band": "volume",
+        "sensitivity": 1.2,
+        "smoothing": 0.72,
+        "intensity": 1,
+        "color": "#8b5cf6"
+      }
+    }
+  ],
+  "modifiedAt": "2026-01-02T00:00:00.000Z"
+}

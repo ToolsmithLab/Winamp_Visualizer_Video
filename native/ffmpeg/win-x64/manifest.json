@@ -1,0 +1,27 @@
+{
+  "component": "FFmpeg",
+  "version": "n7.1.5-10-g2aefd64d48-20260727",
+  "target": "win64",
+  "variant": "lgpl-shared-7.1",
+  "license": "LGPL-3.0-or-later",
+  "release": "autobuild-2026-07-27-14-00",
+  "sourceCommit": "2aefd64d48",
+  "sourceUrl": "https://github.com/FFmpeg/FFmpeg/commit/2aefd64d48",
+  "buildScriptsUrl": "https://github.com/BtbN/FFmpeg-Builds/tree/autobuild-2026-07-27-14-00",
+  "archiveUrl": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-07-27-14-00/ffmpeg-n7.1.5-10-g2aefd64d48-win64-lgpl-shared-7.1.zip",
+  "archiveSha256": "d2a6df844a674c04780478f33224134a29d1b54152f8d8314b82e02eccb02edd",
+  "linking": "shared",
+  "videoEncoder": "libopenh264",
+  "audioEncoder": "aac",
+  "modified": false,
+  "files": {
+    "ffmpeg.exe": "a7983403100c03fe4f5514644cb69c09ab13dc9a102c3febb306e71068a98829",
+    "avcodec-61.dll": "7fff9d279d41643a3148279eaf2d2ca3fe5d74e5f53e2c6983d42bb23e6de158",
+    "avdevice-61.dll": "b6c41dbf89be856d7a1826d0331cecb44ce8ba3a2432f6c814368cc5f32ef188",
+    "avfilter-10.dll": "0cc556a4c635926b4aa0a7bfcc52c3917b368043ed92363b93ae30a7ab8d9226",
+    "avformat-61.dll": "002c4a97b5c7ef7a88f3141d929e09a910b80524de0f22b0314fc86cb9c7840a",
+    "avutil-59.dll": "1d48c258495ff9da220e8af2fa607496105fe358770bb3b6203efd7f6ff5ceac",
+    "swresample-5.dll": "f2b4d834d02d078456d4b9d6a576850fdf5128db6d67b9161b78989bb7190c3f",
+    "swscale-8.dll": "1ea050e71f8a624412eec4561ea81964c8b74166947dbbd28264bf0ec72dd015"
+  }
+}

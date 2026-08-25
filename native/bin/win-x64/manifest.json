@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "platform": "win32",
+  "architecture": "x64",
+  "projectM": {
+    "version": "4.1.6",
+    "tag": "v4.1.6",
+    "commit": "3158ee6",
+    "source": "https://github.com/projectM-visualizer/projectm/releases/download/v4.1.6/libprojectM-4.1.6.tar.gz",
+    "sourceSha256": "1B9E6D56C59FE24E5416DA4D42E941A34C982811003E43AC88B5ACA8AFA52C87",
+    "determinismPatch": {
+      "id": "avs-projectm-4.1.6-determinism-v1",
+      "sourceOverlay": "native/projectm-4.1.6-determinism/overlay",
+      "protocolVersion": 2,
+      "seedType": "uint64",
+      "seedByteOrder": "little-endian",
+      "addedApi": "projectm_create_with_seed(uint64_t)"
+    },
+    "build": {
+      "shared": true,
+      "cxxInterface": false,
+      "playlist": false,
+      "sdlUi": false,
+      "tests": false,
+      "compiler": "MSVC 19.44.35228.0",
+      "configuration": "Release"
+    }
+  },
+  "prePackagingBuildFilesSha256": {
+    "projectm-host.exe": "BFA019334D630AB2EE25C6A5BBDC5BB0B9581CD314596267C6DFC7235031E4AB",
+    "projectM-4.dll": "E7337EC4FE54C00AF622069945A2911837512B7DCFEDB19032200683453524DF",
+    "glew32.dll": "1FE04A7C9F7EDA0857E9B6BFC9D54D106FA1529A0C4C04F2C248A785481C2792",
+    "msvcp140.dll": "0F885B509A685D2BBFA652FED26B5FB31D88FBDAB0A978C641D1C7B8AA460AA9",
+    "vcruntime140.dll": "D5E4D9A3E835FA679450145D6A7D94E36573A509317111904D9B3712C30D9066",
+    "vcruntime140_1.dll": "1F2D41C4AA5DB0BC33EBF7B66D72943A817D7CE6CBE880502A9403823633093F"
+  },
+  "note": "The packager may update PE metadata in executable files. These hashes identify the unsigned native build inputs before packaging."
+}

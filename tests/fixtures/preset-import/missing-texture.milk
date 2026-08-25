@@ -1,0 +1,5 @@
+[preset00]
+// Author is intentionally not declared.
+fDecay=0.95
+sampler_custom=missing-nebula.png
+composite_1=`ret=tex2D(sampler_custom,uv).rgb;

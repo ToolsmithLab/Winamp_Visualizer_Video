@@ -1,0 +1,11 @@
+[preset00]
+// Author: Fixture Author
+// License: CC0-1.0
+fDecay=0.92
+nWaveMode=0
+wave_r=0.2
+wave_g=0.8
+wave_b=1.0
+wave_a=1.0
+wave_x=0.5
+wave_y=0.5

@@ -1,0 +1,8 @@
+[preset00]
+// License intentionally absent.
+fDecay=0.90
+nWaveMode=2
+wave_r=1.0
+wave_g=0.4
+wave_b=0.1
+wave_a=1.0

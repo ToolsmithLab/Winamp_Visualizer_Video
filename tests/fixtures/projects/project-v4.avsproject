@@ -1,0 +1,46 @@
+{
+  "version": "4.0",
+  "name": "Legacy schema 4",
+  "audioFile": "C:\\Media\\schema-4.wav",
+  "projectM": {
+    "enabled": true,
+    "presetId": "preset-a",
+    "presetPath": "C:\\Preset\\A.milk",
+    "presetHash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "presetName": "Preset A",
+    "presetStatus": "valid",
+    "presetLicense": "Licenza non verificata",
+    "presetLicenseVerified": false,
+    "texturePaths": [],
+    "missingTextures": [],
+    "favoritePresetIds": ["preset-a"],
+    "externalFolders": ["C:\\Preset"],
+    "librarySchema": 1,
+    "previewWidth": 540,
+    "previewHeight": 960,
+    "fps": 30,
+    "playlistIds": ["preset-a", "preset-b"],
+    "sequenceStartPresetId": "preset-a",
+    "playbackOrder": "random",
+    "randomSeed": 1511506142,
+    "particleSeed": 305419896,
+    "manualRandomCounter": 4,
+    "locked": false,
+    "autoSwitch": {
+      "enabled": true,
+      "mode": "interval",
+      "order": "random",
+      "intervalSeconds": 12,
+      "minimumSeconds": 8,
+      "maximumSeconds": 16,
+      "noImmediateRepeat": true
+    },
+    "transition": {
+      "enabled": true,
+      "durationSeconds": 1.5
+    },
+    "history": [],
+    "markers": []
+  },
+  "modifiedAt": "2026-01-04T00:00:00.000Z"
+}

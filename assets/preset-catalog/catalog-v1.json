@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "1.0.0",
+  "generatedAt": "2026-07-28T00:00:00.000Z",
+  "packages": [
+    {
+      "id": "projectm-4.1.6-development-test-presets",
+      "name": "projectM 4.1.6 — Preset di test ufficiali",
+      "version": "4.1.6",
+      "sourceUrl": "https://github.com/projectM-visualizer/projectm/tree/v4.1.6/presets/tests",
+      "downloadUrl": "https://github.com/projectM-visualizer/projectm/archive/refs/tags/v4.1.6.zip",
+      "license": "LGPL-2.1-or-later",
+      "licenseUrl": "https://github.com/projectM-visualizer/projectm/blob/v4.1.6/LICENSE.txt",
+      "licenseTextPath": "projectM/LICENSE.txt",
+      "authors": [
+        "projectM Development Team"
+      ],
+      "attribution": [
+        "projectM — Cross-platform Music Visualization Library",
+        "Copyright dei rispettivi contributori projectM"
+      ],
+      "sha256": "ce8edc600042184e42e3dc2ce43befea857cf2dfe8b947cb8ff3268f33e56048",
+      "presetCount": 37,
+      "textureCount": 0,
+      "textureInventory": [],
+      "projectMVersion": "4.1.6",
+      "releaseDate": "2025-11-28T08:31:42.000Z",
+      "verifiedAt": "2026-07-28T00:00:00.000Z",
+      "archive": {
+        "format": "zip",
+        "includePrefix": "projectm-4.1.6/presets/tests"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Cream of the Crop",
+      "sourceUrl": "https://github.com/projectM-visualizer/presets-cream-of-the-crop",
+      "reason": "Il file LICENSE non concede una licenza esplicita: presume il pubblico dominio sulla base della precedente diffusione.",
+      "reviewedAt": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "name": "Classic projectM Presets",
+      "sourceUrl": "https://github.com/projectM-visualizer/presets-projectm-classic",
+      "reason": "Il repository non contiene un file LICENSE né una licenza esplicita per i singoli preset.",
+      "reviewedAt": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "name": "MilkDrop Texture Pack",
+      "sourceUrl": "https://github.com/projectM-visualizer/presets-milkdrop-texture-pack",
+      "reason": "Il repository non contiene un inventario di licenze esplicite per tutte le texture.",
+      "reviewedAt": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "name": "En D Presets",
+      "sourceUrl": "https://github.com/projectM-visualizer/presets-en-d",
+      "reason": "Il file LICENSE formula soltanto un'assunzione di pubblico dominio e riconosce il copyright degli autori.",
+      "reviewedAt": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "name": "MilkDrop 2 original presets",
+      "sourceUrl": "https://github.com/projectM-visualizer/presets-milkdrop-original",
+      "reason": "Non è stata verificata una licenza esplicita applicabile a ogni preset del pacchetto.",
+      "reviewedAt": "2026-07-28T00:00:00.000Z"
+    }
+  ]
+}

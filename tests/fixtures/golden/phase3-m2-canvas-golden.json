@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "width": 180,
+  "height": 320,
+  "timestamp": 12.5,
+  "projectSeed": 305419896,
+  "highEnergy": {
+    "radialRays": "3063d51b615df5c6f7442c481c63aadee27525e921cde4e0c5bbeec05e74a7c2",
+    "mirroredWaveform": "1ada62bbef50ad64de7fcc86498fb25d477d69bd794782585ece8b57206367a9",
+    "audioGrid": "6ed656b54709b0f69d3d480d3059d0b83ee9bae42d4b13e2ca0bc958c9ba928c",
+    "orbitingParticles": "c64c6446733620be805b9232519e009c37178399602362217ea6b79c00f21c50"
+  },
+  "lowEnergy": {
+    "radialRays": "136f996f053db8d303f9fb97cb117fd4fad263a11db6e5d7b1ee5bd396fd0126",
+    "mirroredWaveform": "e55c7438c0664fe6a3c86c32432a6a007f2f7c82b459fb6aac5eea13ef05ae7c",
+    "audioGrid": "9ef0bc9c9b940afa93c4171823ee773927c3a36ab2e03676e6d065679c9efa29",
+    "orbitingParticles": "873a41babb5777abfbb5984301c9053143eb862096bf2a52bac55cbbe8007a34"
+  }
+}

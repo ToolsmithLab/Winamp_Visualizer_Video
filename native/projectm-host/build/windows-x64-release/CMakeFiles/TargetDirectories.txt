@@ -1,0 +1,6 @@
+D:/Projects/Winamp_Visualizer_Video/native/projectm-host/build/windows-x64-release/CMakeFiles/projectm-host.dir
+D:/Projects/Winamp_Visualizer_Video/native/projectm-host/build/windows-x64-release/CMakeFiles/edit_cache.dir
+D:/Projects/Winamp_Visualizer_Video/native/projectm-host/build/windows-x64-release/CMakeFiles/rebuild_cache.dir
+D:/Projects/Winamp_Visualizer_Video/native/projectm-host/build/windows-x64-release/CMakeFiles/list_install_components.dir
+D:/Projects/Winamp_Visualizer_Video/native/projectm-host/build/windows-x64-release/CMakeFiles/install.dir
+D:/Projects/Winamp_Visualizer_Video/native/projectm-host/build/windows-x64-release/CMakeFiles/install/local.dir

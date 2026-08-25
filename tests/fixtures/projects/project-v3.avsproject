@@ -1,0 +1,24 @@
+{
+  "version": "3.0",
+  "name": "Legacy schema 3",
+  "audioFile": "C:\\Media\\schema-3.wav",
+  "projectM": {
+    "enabled": true,
+    "presetId": "legacy-preset",
+    "presetPath": "C:\\Preset\\Legacy.milk",
+    "presetHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "presetName": "Legacy Preset",
+    "presetStatus": "valid",
+    "presetLicense": "Licenza non verificata",
+    "presetLicenseVerified": false,
+    "texturePaths": [],
+    "missingTextures": [],
+    "favoritePresetIds": [],
+    "externalFolders": [],
+    "librarySchema": 1,
+    "previewWidth": 540,
+    "previewHeight": 960,
+    "fps": 30
+  },
+  "modifiedAt": "2026-01-03T00:00:00.000Z"
+}

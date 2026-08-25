@@ -1,0 +1,39 @@
+{
+  "format": 1,
+  "width": 180,
+  "height": 320,
+  "fps": 30,
+  "particleSeed": 305419896,
+  "audioFixtureSha256": "14e48c3ca306f903817b23803732e09e0b7e9bf344166a69721762c9388d9a20",
+  "synthetic": {
+    "spectrumBars": "8490e9b8ecdf829b0c6e6fc3d48d64bb2104080bf32c530b8d0157bcc1f2445d",
+    "circularSpectrum": "15b6903a462829c5aecc368a7f6a7fa80df3ab6e8a292ecc5c6a7117bc2d89f6",
+    "waveformLine": "23c2e35470d980f46d8b2ba2a10ba9f9bb38e0fc799d8e89d2445642f29ae3c4",
+    "particleBurst": "d79e7fc396dc0462351f12df26438f14fd0fd811d47f3c0d083b4bd29b13becf",
+    "pulseShapes": "a19147d31cb7977e004b69783ec75c104ee259f420764c16b75e7a98a2b2a66e",
+    "dynamicVignette": "6817f196be322c8282135e23cb39c796437fcf31445df6059fd42f571ab6a17d"
+  },
+  "realAudio": {
+    "spectrumBars": "63e3d390d974115dc8011a0d0fbe9931b41e97108c462884a332049fca0a7b62",
+    "circularSpectrum": "5a57dde59f837fd7375f3196e56b6d2cee3cde1dfaadc14c25fa07f7167b612b",
+    "waveformLine": "b6f0bd06632c6cbd04696396eb82575d7a2e2798a0ed8f543c52a184bae194fb",
+    "particleBurst": "d79e7fc396dc0462351f12df26438f14fd0fd811d47f3c0d083b4bd29b13becf",
+    "pulseShapes": "b4be9cd3b0e82572535f4ac769ad4ff2e0dea3df6fada62545f9371fad7dc4f2",
+    "dynamicVignette": "d0148ed420249c220dfc0631b05edbee0fa14789a7b7ccf3b54450f62603a95b"
+  },
+  "previewOffline": {
+    "preview": "8490e9b8ecdf829b0c6e6fc3d48d64bb2104080bf32c530b8d0157bcc1f2445d",
+    "offline": "8490e9b8ecdf829b0c6e6fc3d48d64bb2104080bf32c530b8d0157bcc1f2445d",
+    "equal": true
+  },
+  "seekForwardBackward": [
+    "b01109e3283e4e98c118cc311b7dc2c38f34cee42d06cb23489e90fd16ea868d",
+    "1ccee40aaefe6073d1d2d05c79a2db3f1f8bbbd802180c23e6943b8580ca501e",
+    "028e6ac539247eafa4a98f027e3b16434d8159556c843f027743b8eaa050d63a",
+    "5c518a56c9da6c89c2241b46e80e4631c7340787d18f842409a4a4674317c84d",
+    "d363a3f14629630740d130e3bdfce7d494c421897e4576f76e3c19b16508a9c3",
+    "b01109e3283e4e98c118cc311b7dc2c38f34cee42d06cb23489e90fd16ea868d",
+    "1ccee40aaefe6073d1d2d05c79a2db3f1f8bbbd802180c23e6943b8580ca501e"
+  ],
+  "twoStatefulInstances": "fd241f3b2d3822efbd3991c970141271bd52e42760af39678665aefd266855ba"
+}

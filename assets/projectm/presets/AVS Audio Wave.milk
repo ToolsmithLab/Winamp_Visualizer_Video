@@ -1,0 +1,14 @@
+[preset00]
+per_frame_1000=// Bundled integration preset from the projectM 4.1.6 test corpus
+per_frame_1001=// A real MilkDrop waveform interpreted by libprojectM
+
+fDecay=0
+nWaveMode=0
+fZoomExponent=1.000000
+warp=0.000000
+wave_r=1
+wave_g=0.35
+wave_b=0.85
+wave_a=1
+wave_x=0.500000
+wave_y=0.500000

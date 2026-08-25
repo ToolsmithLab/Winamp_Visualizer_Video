@@ -1,0 +1,9 @@
+# ninja log v6
+47	3829	8070595520700000	CMakeFiles/projectm-host.dir/src/main.cpp.obj	ccf425f6abd74de1
+3831	4481	8070595560000000	projectm-host.exe	638364eaf0bd99bd
+67	3510	8070993589500000	CMakeFiles/projectm-host.dir/src/main.cpp.obj	ccf425f6abd74de1
+3511	3813	8070993640000000	projectm-host.exe	638364eaf0bd99bd
+18	8016	8071410129400000	CMakeFiles/projectm-host.dir/src/main.cpp.obj	ccf425f6abd74de1
+8020	8701	8071410360000000	projectm-host.exe	638364eaf0bd99bd
+18	6813	8072259496300000	CMakeFiles/projectm-host.dir/src/main.cpp.obj	ccf425f6abd74de1
+6814	7435	8072259720000000	projectm-host.exe	638364eaf0bd99bd

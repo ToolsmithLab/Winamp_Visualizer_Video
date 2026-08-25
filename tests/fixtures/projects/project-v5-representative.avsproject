@@ -1,0 +1,218 @@
+{
+  "version": "5.0",
+  "name": "Baseline Fase 2 Ω",
+  "audioFile": "C:\\Media\\Unicode Ω\\baseline.wav",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "backgroundColor": "#080b12",
+    "accentColor": "#8b5cf6"
+  },
+  "cover": {
+    "filePath": "C:\\Media\\Unicode Ω\\cover.png",
+    "x": 0.47,
+    "y": 0.34,
+    "width": 0.6,
+    "height": 0.36,
+    "opacity": 0.88,
+    "cornerRadius": 0.04
+  },
+  "text": {
+    "artist": "Artista Ω",
+    "title": "Baseline Fase 2",
+    "color": "#ffffff",
+    "artistX": 0.49,
+    "artistY": 0.58,
+    "artistSize": 0.032,
+    "titleX": 0.51,
+    "titleY": 0.64,
+    "titleSize": 0.062
+  },
+  "projectM": {
+    "enabled": true,
+    "presetId": "preset-a",
+    "presetPath": "C:\\Preset\\Unicode Ω\\A.milk",
+    "presetHash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "presetName": "Preset A Ω",
+    "presetStatus": "valid",
+    "presetLicense": "Licenza non verificata",
+    "presetLicenseVerified": false,
+    "texturePaths": ["C:\\Preset\\Unicode Ω\\texture.png"],
+    "missingTextures": [],
+    "favoritePresetIds": ["preset-a"],
+    "externalFolders": ["C:\\Preset\\Unicode Ω"],
+    "librarySchema": 1,
+    "previewWidth": 540,
+    "previewHeight": 960,
+    "fps": 30,
+    "playlistIds": ["preset-a", "preset-b", "preset-c"],
+    "sequenceStartPresetId": "preset-a",
+    "playbackOrder": "random",
+    "randomSeed": 1511506142,
+    "particleSeed": 305419896,
+    "manualRandomCounter": 7,
+    "locked": false,
+    "autoSwitch": {
+      "enabled": true,
+      "mode": "interval",
+      "order": "random",
+      "intervalSeconds": 12,
+      "minimumSeconds": 8,
+      "maximumSeconds": 16,
+      "noImmediateRepeat": true
+    },
+    "transition": {
+      "enabled": true,
+      "durationSeconds": 1.75
+    },
+    "history": [
+      {
+        "presetId": "preset-b",
+        "at": 12,
+        "source": "automatic"
+      }
+    ],
+    "markers": [
+      {
+        "id": "marker-24",
+        "time": 24,
+        "label": "Cambio",
+        "source": "timeline",
+        "presetId": "preset-c"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "id": "projectm",
+      "name": "projectM · MilkDrop",
+      "kind": "projectM",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "source-over",
+      "startTime": 0,
+      "endTime": null
+    },
+    {
+      "id": "visualizer-spectrumBars",
+      "name": "Spectrum Bars",
+      "kind": "visualizer",
+      "pluginId": "spectrumBars",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.91,
+      "blendMode": "screen",
+      "startTime": 0,
+      "endTime": null,
+      "reactive": {"band":"volume","sensitivity":1.1,"smoothing":0.72,"intensity":1,"color":"#8b5cf6"}
+    },
+    {
+      "id": "visualizer-circularSpectrum",
+      "name": "Circular Spectrum",
+      "kind": "visualizer",
+      "pluginId": "circularSpectrum",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.82,
+      "blendMode": "lighter",
+      "startTime": 2,
+      "endTime": 42,
+      "reactive": {"band":"bass","sensitivity":1,"smoothing":0.72,"intensity":1,"color":"#22d3ee"}
+    },
+    {
+      "id": "visualizer-waveformLine",
+      "name": "Waveform Line",
+      "kind": "visualizer",
+      "pluginId": "waveformLine",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.73,
+      "blendMode": "multiply",
+      "startTime": 4,
+      "endTime": 44,
+      "reactive": {"band":"mid","sensitivity":1,"smoothing":0.72,"intensity":1,"color":"#f59e0b"}
+    },
+    {
+      "id": "visualizer-particleBurst",
+      "name": "Particle Burst",
+      "kind": "visualizer",
+      "pluginId": "particleBurst",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.64,
+      "blendMode": "overlay",
+      "startTime": 6,
+      "endTime": 46,
+      "reactive": {"band":"bass","sensitivity":1,"smoothing":0.72,"intensity":1,"color":"#ef4444"}
+    },
+    {
+      "id": "visualizer-pulseShapes",
+      "name": "Pulse Shapes",
+      "kind": "visualizer",
+      "pluginId": "pulseShapes",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.55,
+      "blendMode": "lighten",
+      "startTime": 8,
+      "endTime": 48,
+      "reactive": {"band":"bass","sensitivity":1,"smoothing":0.72,"intensity":1,"color":"#10b981"}
+    },
+    {
+      "id": "cover",
+      "name": "Copertina",
+      "kind": "cover",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.94,
+      "blendMode": "darken",
+      "startTime": 0,
+      "endTime": null
+    },
+    {
+      "id": "artist-text",
+      "name": "Testo artista",
+      "kind": "artistText",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.72,
+      "blendMode": "source-over",
+      "startTime": 0,
+      "endTime": null
+    },
+    {
+      "id": "title-text",
+      "name": "Testo titolo",
+      "kind": "titleText",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "source-over",
+      "startTime": 0,
+      "endTime": null
+    },
+    {
+      "id": "visualizer-dynamicVignette",
+      "name": "Vignetta dinamica",
+      "kind": "visualizer",
+      "pluginId": "dynamicVignette",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.46,
+      "blendMode": "screen",
+      "startTime": 10,
+      "endTime": 50,
+      "reactive": {"band":"bass","sensitivity":1,"smoothing":0.72,"intensity":0.55,"color":"#8b5cf6"}
+    }
+  ],
+  "exportSettings": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "videoBitrate": "16M",
+    "audioBitrate": "320k"
+  },
+  "modifiedAt": "2026-01-05T00:00:00.000Z"
+}

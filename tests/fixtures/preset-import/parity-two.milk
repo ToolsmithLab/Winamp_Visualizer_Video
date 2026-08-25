@@ -1,0 +1,24 @@
+[preset00]
+// Author: Test fixture
+// License: CC0-1.0
+fDecay=0.91
+zoom=1.009
+rot=-0.002
+warp=0.018
+wave_a=0.8
+nWaveMode=2
+wave_r=1.0
+wave_g=0.25
+wave_b=0.25
+wave_x=0.5
+wave_y=0.5
+ob_size=0.045
+ob_r=1.0
+ob_g=0.1
+ob_b=0.2
+ob_a=1.0
+ib_size=0.07
+ib_r=1.0
+ib_g=0.55
+ib_b=0.05
+ib_a=0.9
